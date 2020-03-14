@@ -1,3 +1,5 @@
+[GitHub Pages Demo](https://bennyhinrichs.github.io/react-product-gallery/)
+
 # Potential TODOs
 
 - Prefetch the large image on tile hover

@@ -1,0 +1,50 @@
+:root {
+  --color-primary: hsl(49, 100%, 49%);
+  --color-secondary: hsl(239, 60%, 62%);
+  --color-bg-main: hsl(0, 0%, 100%);
+  --color-bg-main-hsl: 0, 0%, 100%;
+  --color-bg-secondary: hsl(0, 0%, 100%);
+  --color-text-main: hsl(0, 0%, 0%);
+  --color-text-secondary: hsl(240, 1%, 22%);
+}
+
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  background-color: var(--color-bg-main);
+  color: var(--color-text-main);
+  font-family: "Source Sans Pro", serif;
+}
+
+body.dark-mode {
+  --color-primary: hsl(49, 85%, 49%);
+  --color-secondary: hsl(239, 50%, 62%);
+  --color-bg-main: hsl(240, 1%, 22%);
+  --color-bg-main-hsl: 240, 1%, 22%;
+  --color-bg-secondary: hsl(0, 0%, 13%);
+  --color-text-main: white;
+  --color-text-secondary: hsl(0, 0%, 80%);
+
+}
+
+.top-stripe {
+  background-color: var(--color-secondary);
+  height: .3rem;
+}
+
+.main-container {
+  display: flex;
+  margin: 0 auto;
+  width: 80vw;
+}
+
+.main-container > :first-child {
+  flex: 2;
+}
+
+.main-container > :last-child {
+  flex: 7;
+}

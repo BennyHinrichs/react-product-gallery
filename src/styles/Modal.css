@@ -1,0 +1,141 @@
+.Modal.hidden {
+  display: none;
+}
+
+.Modal {
+  align-items: center;
+  background-color: hsla(var(--color-bg-main-hsl), 0.86);;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  left: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: fixed;
+  right: 0;
+  top: 0;
+  transition: background-color .1s;
+  z-index: 1000;
+}
+
+.modal-box {
+  align-items: center;
+  background-color: var(--color-bg-main);
+  border-radius: .3rem;
+  box-shadow:0 16px 34px 7px rgba(121,121,121,0.10);
+  display: flex;
+  max-height: 60vh;
+  max-width: 60vw;
+  min-height: 60vh;
+  min-width: 60vw;
+  padding: 2rem;
+  position: relative;
+}
+
+.modal-content {
+  align-items: center;
+  display: flex;
+}
+
+.modal-exit {
+  font-size: 2rem;
+  position: absolute;
+  right: 2rem;
+  top: 2rem;
+}
+
+.modal-exit:hover {
+  color: var(--color-primary);
+  cursor: pointer;
+}
+
+.modal-description {
+  margin-left: 2rem;
+}
+
+.modal-description--name {
+  font-weight: normal;
+}
+
+.modal-description--price {
+  color: var(--color-primary);
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.modal-description--price > *:not(:first-child) {
+  margin-left: 2rem;
+}
+
+.modal-description--description {
+  line-height: 2rem;
+  margin-top: 1rem;
+}
+
+.modal-fade-in {
+  animation: modal-fade-in .3s;
+}
+
+.modal-fade-out {
+  animation: modal-fade-out .3s;
+}
+
+@keyframes modal-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+}
+
+@-webkit-keyframes modal-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+}
+
+@keyframes modal-fade-out {
+  to {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+}
+
+@-webkit-keyframes modal-fade-out {
+  to {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+}
+
+.fade-in {
+  animation: fade-in .3s;
+}
+
+.fade-out {
+  animation: fade-out .3s;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+}
+
+@keyframes fade-out {
+  to {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes fade-out {
+  to {
+    opacity: 0;
+  }
+}

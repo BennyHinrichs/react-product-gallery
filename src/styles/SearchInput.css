@@ -1,0 +1,29 @@
+.SearchInput {
+  align-items: center;
+  background-color: var(--color-bg-main);
+  border-radius: .3rem;
+  cursor: text;
+  display: flex;
+  min-width: 70%;
+  padding: .5rem 1rem;
+  transition: padding 0.3s cubic-bezier(0.46, 1.58, 0.24, 1.8);
+}
+
+.SearchInput:focus-within {
+  padding: 1rem;
+}
+
+.SearchInput > .fa {
+  color: var(--color-text-main);
+}
+
+.SearchInput > input {
+  background-color: var(--color-bg-main);
+  border: none;
+  caret-color: var(--color-text-main);
+  color: var(--color-text-main);
+  margin-left: 1rem;
+  height: 1.5rem;
+  outline: none;
+  width: -webkit-fill-available;
+}

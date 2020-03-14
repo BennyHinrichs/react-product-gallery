@@ -1,0 +1,14 @@
+.PriceInput {
+  background-color: var(--color-bg-primary);
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: .2rem;
+  caret-color: var(--color-text-main);
+  color: var(--color-text-main);
+  max-width: 3rem;
+  outline: none;
+  padding: .3rem;
+}
+
+.PriceInput:focus {
+  border-color: var(--color-primary);
+}

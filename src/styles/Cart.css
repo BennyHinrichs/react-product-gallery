@@ -1,0 +1,37 @@
+.Cart {
+  border-radius: .3rem;
+  /* border: 2px solid white; */
+  font-size: 2rem;
+  padding: .5rem 1rem;
+}
+
+.Cart > *:not(:first-child) {
+  margin-left: 1rem;
+}
+
+.Cart .fa {
+  position: relative;
+}
+
+.shopping-cart-badge {
+  background: white;
+  border: 1px solid var(--color-primary);
+  border-radius: 50%;
+  color: var(--color-primary);
+  display: none;
+  font-family: "Source Sans Pro", serif;
+  font-size: 1rem;
+  height: 1rem;
+  padding: .2rem;
+  position: absolute;
+  right: -0.75rem;
+  text-align: center;
+  top: -0.5rem;
+  width: 1rem;
+}
+
+.shopping-cart-badge--has-items {
+  background: var(--color-secondary);
+  color: white;
+  display: block;
+}

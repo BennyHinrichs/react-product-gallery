@@ -1,0 +1,19 @@
+.Button {
+  background-color: var(--color-primary);
+  border: none;
+  border-radius: .3rem;
+  color: var(--color-text-main);
+  cursor: pointer;
+  outline: none;
+  min-width: 5rem;
+  padding: 0 1rem;
+}
+
+.Button:hover {
+  color: var(--color-bg-main);
+}
+
+.Button:active {
+  background-color: var(--color-secondary);
+  color: white;
+}

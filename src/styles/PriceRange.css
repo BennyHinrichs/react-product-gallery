@@ -1,0 +1,7 @@
+.price-range-filters {
+  display: flex;
+}
+
+.price-range-filters > *:not(:first-child) {
+  margin-inline-start: .3rem;
+}

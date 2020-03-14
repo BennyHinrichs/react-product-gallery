@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/react-product-gallery/static/css/main.9510a3e0.chunk.css",
+    "main.js": "/react-product-gallery/static/js/main.8dd0d08d.chunk.js",
+    "main.js.map": "/react-product-gallery/static/js/main.8dd0d08d.chunk.js.map",
+    "runtime~main.js": "/react-product-gallery/static/js/runtime~main.ecb2a0e0.js",
+    "runtime~main.js.map": "/react-product-gallery/static/js/runtime~main.ecb2a0e0.js.map",
+    "static/css/2.764ccc25.chunk.css": "/react-product-gallery/static/css/2.764ccc25.chunk.css",
+    "static/js/2.1283d299.chunk.js": "/react-product-gallery/static/js/2.1283d299.chunk.js",
+    "static/js/2.1283d299.chunk.js.map": "/react-product-gallery/static/js/2.1283d299.chunk.js.map",
+    "index.html": "/react-product-gallery/index.html",
+    "precache-manifest.7c8b3793a744ff15c1c364be726426ea.js": "/react-product-gallery/precache-manifest.7c8b3793a744ff15c1c364be726426ea.js",
+    "service-worker.js": "/react-product-gallery/service-worker.js",
+    "static/css/2.764ccc25.chunk.css.map": "/react-product-gallery/static/css/2.764ccc25.chunk.css.map",
+    "static/css/main.9510a3e0.chunk.css.map": "/react-product-gallery/static/css/main.9510a3e0.chunk.css.map"
+  }
+}
